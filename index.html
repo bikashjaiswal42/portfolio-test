@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bikash Kumar Jaiswal's Portfolio  </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Canvas for Three.js -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">PORT<span class="highlight">FOLIO</span></span>
+        </div>
+        <div class="nav-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#recommendations" class="nav-link">Recommendations</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="glitch-text" data-text="Bikash Kumar Jaiswal">Bikash Kumar Jaiswal</h1>
+            <p class="hero-subtitle">Developer <span class="typing-text"></span></p>
+            <div class="hero-description">
+                Shaping the future through code and innovation
+            </div>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="avatar-container">
+                <!-- 3D Avatar or Abstract Shape will be rendered here via Three.js -->
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-subtitle">My Journey</div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <img src="img/../bikash.jpeg" alt="Bikash Kumar Jaiswal" width="300px" height="300px">
+               <br>
+                <p> Hey Everyone ! </p>
+<p><h1> Er. Bikash Kumar Jaiswal</h1> </p> 
+<p><h3> Computer Science Engineer</h3></p> 
+
+<p>  I am a Computer Science Engineering student with a strong focus on Data Science, Machine Learning, and Web Development. Currently pursuing my B.Tech at Shri Ramswaroop Memorial University, Lucknow (Uttar Pradesh, India). I am passionate about leveraging technology to solve real-world problems and building innovative digital solutions that create meaningful impact.</p>
+            </div>
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="3">3</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="8">8</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="15">15</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="4">4</div>
+                    <div class="stat-label">Awards Won</div>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-container">
+            <h3 class="timeline-title">My Journey</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h4>Started Coding Journey</h4>
+                        <p>Began learning web development fundamentals and created my first projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h4>First Professional Role</h4>
+                        <p>Joined a startup as a junior developer working on innovative web applications.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h4>Advanced to Senior Position</h4>
+                        <p>Promoted to lead developer, managing projects and mentoring junior team members.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h4>Launched Freelance Career</h4>
+                        <p>Started working independently with clients worldwide on cutting-edge web projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2 class="section-title">My Skills</h2>
+            <div class="section-subtitle">What I Do Best</div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-card" data-skill="html">
+                <div class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h3 class="skill-title">HTML5</h3>
+                <div class="skill-level">
+                    <div class="skill-progress" data-level="95"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="css">
+                <div class="skill-icon">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <h3 class="skill-title">CSS3</h3>
+                <div class="skill-level">
+                    <div class="skill-progress" data-level="90"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="js">
+                <div class="skill-icon">
+                    <i class="fab fa-js"></i>
+                </div>
+                <h3 class="skill-title">JavaScript</h3>
+                <div class="skill-level">
+                    <div class="skill-progress" data-level="85"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="react">
+                <div class="skill-icon">
+                    <i class="fab fa-react"></i>
+                </div>
+                <h3 class="skill-title">React</h3>
+                <div class="skill-level">
+                    <div class="skill-progress" data-level="80"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="node">
+                <div class="skill-icon">
+                    <i class="fab fa-node-js"></i>
+                </div>
+                <h3 class="skill-title">Node.js</h3>
+                <div class="skill-level">
+                    <div class="skill-progress" data-level="75"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="threejs">
+                <div class="skill-icon">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <h3 class="skill-title">Three.js</h3>
+                <div class="skill-level">
+                    <div class="skill-progress" data-level="70"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2 class="section-title">My Projects</h2>
+            <div class="section-subtitle">Recent Work</div>
+        </div>
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="app">App</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card" data-category="web">
+                <div class="project-img">
+                    <img src="images/../ecommerce.jpg" alt="E-Commerce Platform">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">E-Commerce Platform</h3>
+                    <p class="project-description">A full-featured online store with payment integration and inventory management.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="app">
+                <div class="project-img">
+                    <img src="images/../fitness.jpg" alt="Fitness Tracker App">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Fitness Tracker App</h3>
+                    <p class="project-description">Mobile application for tracking workouts and nutrition with data visualization.</p>
+                    <div class="project-tech">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                        <span>D3.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="design">
+                <div class="project-img">
+                    <img src="images/../brand.jpg" alt="Brand Identity">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Brand Identity</h3>
+                    <p class="project-description">Complete brand identity design including logo, color palette, and style guide.</p>
+                    <div class="project-tech">
+                        <span>Figma</span>
+                        <span>Illustrator</span>
+                        <span>Photoshop</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="web">
+                <div class="project-img">
+                    <img src="images/../portfolio.jpg" alt="Portfolio Website">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Portfolio Website</h3>
+                    <p class="project-description">Interactive portfolio website with 3D elements and advanced animations.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Three.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="section-header">
+            <h2 class="section-title">Recommendations</h2>
+            <div class="section-subtitle">What Clients Say'S</div>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">Working with this developer was an absolute pleasure. They delivered our project on time and exceeded all our expectations with their creativity and technical skills.</p>
+                <div class="testimonial-author">
+                    <div class="author-img">
+                        <img src="images/../john.jpg" alt="John Smith">
+                    </div>
+                    <div class="author-info">
+                        <h4 class="author-name">John Smith</h4>
+                        <p class="author-position">CEO, Tech Innovations</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">The attention to detail and problem-solving abilities were impressive. Our website not only looks stunning but also performs exceptionally well across all devices.</p>
+                <div class="testimonial-author">
+                    <div class="author-img">
+                        <img src="images/../sarah.jpg" alt="Sarah Johnson">
+                    </div>
+                    <div class="author-info">
+                        <h4 class="author-name">Sarah Johnson</h4>
+                        <p class="author-position">Marketing Director, Elevate Brand</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">I was blown away by the innovative solutions provided for our complex requirements. The final product has significantly improved our user engagement and conversion rates.</p>
+                <div class="testimonial-author">
+                    <div class="author-img">
+                        <img src="images/../micheal.jpg" alt="Michael Chen">
+                    </div>
+                    <div class="author-info">
+                        <h4 class="author-name">Michael Chen</h4>
+                        <p class="author-position">Founder, NextGen Solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-controls">
+            <button class="testimonial-btn prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="testimonial-btn next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="section-subtitle">Get In Touch</div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Location</h4>
+                        <p>Lucknow, Uttar Pradesh, India</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Email</h4>
+                        <p>bikashkumarjaiswal69@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Phone</h4>
+                        <p> +91 9695477922 </p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#https://github.com/bikashjaiswal42" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#https://www.linkedin.com/in/bikashkumarjaiswal08" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#https://www.instagram.com/biikasshhh/" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#https://www.facebook.com/biikasshhh2061" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div> 
+                      <div class="contact-form">
+                <p><h3> <i>Feel free to reach out using the form below:</i> </h3></p>
+                <form id="contactForm" action="https://formspree.io/f/xgvlwzdk" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="feedback" name="feedback" placeholder="Sned feedback" required></textarea>
+                        <label for="feedback">Send Feedback </label>
+                    </div>
+                    <button type="submit" class="btn primary-btn">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">Designed by   <span class="highlight"> Bikash Kumar Jaiswal </span> </span> 
+            </div>
+            <div class="footer-text">
+                <p><b>HOPEFULLY YOU ENJOYED</b>  </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Project Details -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Project details will be loaded here dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
