@@ -1,15 +1,15 @@
-🚀 Er. Bikash Kumar Jaiswal – Personal Portfolio
+# Er. Bikash Kumar Jaiswal – Personal Portfolio
 
 
 
 
 
 
-💡 About Me
+# About Me
 
 I am Bikash Kumar Jaiswal, a passionate Computer Science Engineering student from Shri Ramswaroop Memorial University, Lucknow, India. I specialize in Data Science, Machine Learning, and Web Development, building innovative digital solutions and interactive web experiences that solve real-world problems.
 
-🌟 Portfolio Highlights
+# Portfolio Highlights
 
 Fully responsive and interactive personal portfolio.
 
@@ -21,14 +21,15 @@ Smooth animations, 3D elements, and intuitive UI/UX.
 
 Contact section for networking and collaboration.
 
-🛠️ Skills & Technologies
+#  Skills & Technologies
 Frontend	Backend	Database	Programming	Tools & Platforms
 HTML5	Node.js	MySQL	Python	Git & GitHub
 CSS3	Express.js	-	-	Netlify
 JavaScript	-	-	-	Framer
 React.js	-	-	-	VS Code
 Three.js	-	-	-	Chrome DevTools
-📂 Projects
+
+# Projects
 Project	Description	Live Demo
 E-Commerce Platform	Online store with payment integration & inventory management	Demo
 
@@ -37,9 +38,9 @@ Fitness Tracker App	Mobile app to track workouts, nutrition & progress	Demo
 Brand Identity	Logo & brand design including color palette & style guide	Demo
 
 Portfolio Website	Interactive portfolio with 3D animations	Demo
-⚡ Quick Start
+# Quick Start
 
-To run this portfolio locally:
+To run this portfolio locally:https://erbikashportfolio21.netlify.app/
 
 # Clone the repository
 git clone https://github.com/bikashjaiswal42/erbikashportfolio21.git
@@ -54,7 +55,7 @@ npm install
 npm start
 
 
-Open http://localhost:3000
+Open https://erbikashportfolio21.netlify.app/
  in your browser to view it locally.
 
 # Contact Me
